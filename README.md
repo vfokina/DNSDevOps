@@ -31,10 +31,10 @@ Git
 
 ### Доступ к базе данных
 
-Хост: localhost
-Пользователь: appuser
-Пароль: password
-База данных: appdb
+- Хост: localhost
+- Пользователь: appuser
+- Пароль: password
+- База данных: appdb
 
 ### PHP скрипт
 
@@ -43,7 +43,8 @@ Git
 ## Настройка проекта
 Для настройки проекта нужно изменить файлы:
 
-docker-compose.yml: для изменения параметров контейнеров
-nginx.conf: для настройки Nginx
-default.conf: для дополнительных конфигураций Nginx
-index.php: для изменения PHP-кода
+- `docker-compose.yml`: для изменения параметров контейнеров
+- `nginx.conf`: для настройки Nginx
+- `default.conf`: для дополнительных конфигураций Nginx
+- `index.php`: для изменения PHP-кода
+
